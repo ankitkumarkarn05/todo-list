@@ -34,7 +34,7 @@ const [Items, setItems] = useState([]);
       <div className="main_div">
         <div className="center_div">
           <br />
-          <h1>To Do List New</h1>
+          <h1>My ToDO</h1>
           <br />
           <input type="text" placeholder="Add an Items" onChange={itemEvent} value={inputList}/>
         <button onClick={listOfItems}> + </button>
